@@ -11,7 +11,7 @@ class Classroom
     @students << student
   end
 
-  def yell_at_students(student)
+  def yell_at_students(student) #not sure how to add the upcase method
     @students = yell_at_students.each.upcase
   end
 end
