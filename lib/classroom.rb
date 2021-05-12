@@ -5,13 +5,16 @@ class Classroom
     @subject = subject
     @capacity = capacity
     @students = []
+    @caps_students = []
   end
 
   def add_student(student)
     @students << student
+    p @students
   end
 
-  def yell_at_students(student) #not sure how to add the upcase method
-    @students = yell_at_students.each.upcase
+  students.each do |student| #not sure how to add the upcase method
+    @students.upcase
+    p @students 
   end
 end
